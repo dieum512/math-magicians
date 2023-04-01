@@ -16,7 +16,7 @@ const Calculs = () => {
   return (
     <div className="container">
       <form className="calculs">
-        <input className="calculs" type="text" value={result.total || result.next || '0'} readOnly/>
+        <input className="calculs" type="text" value={result.total || result.next || '0'} readOnly />
       </form>
       <Buttons handleClick={handleClick} />
     </div>

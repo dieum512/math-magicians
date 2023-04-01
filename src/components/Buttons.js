@@ -28,4 +28,4 @@ Buttons.propTypes = {
   handleClick: PropTypes.func.isRequired,
 };
 
-export default Buttons ;
+export default Buttons;
