@@ -1,7 +1,11 @@
+import Quotes from './components/Quotes';
 import Calculs from './components/Calculator';
 
 const App = () => (
-  <Calculs />
+  <>
+    <Quotes />
+    <Calculs />
+  </>
 );
 
 export default App;
