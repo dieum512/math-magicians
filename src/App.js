@@ -1,4 +1,4 @@
-import Calculs from './components/Calcul';
+import Calculs from './components/Calculator';
 
 const App = () => (
   <Calculs />
