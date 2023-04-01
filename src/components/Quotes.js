@@ -27,7 +27,7 @@ const Quotes = () => {
       setIsLoading(false);
     };
     fetchData();
-  }, [setData]);
+  }, []);
 
   if (hasError) return <h3>Sorry, something went wrong!</h3>;
 
