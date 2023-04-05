@@ -29,7 +29,7 @@ const Quotes = () => {
     fetchData();
   }, []);
 
-  if (hasError) return <h3 className='error'>Sorry, something went wrong!</h3>;
+  if (hasError) return <h3 className="error">Sorry, something went wrong!</h3>;
 
   return (
     <div className="quotes">

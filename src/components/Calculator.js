@@ -14,9 +14,9 @@ const Calculs = () => {
   };
 
   return (
-    <div className='calculator'>
+    <div className="calculator">
       <div>
-        <h2>Let's do some math!</h2>
+        <h2>Let us do some math!</h2>
       </div>
       <div className="calculator-container">
         <form className="calculs">

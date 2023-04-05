@@ -75,10 +75,11 @@ header ul li {
   font-size: 40px;
   color: #ec5242;
 }
+
 .calculator-container {
   background-color: #b6b0b0;
   opacity: 0.9;
-  width: 45%; 
+  width: 45%;
 }
 
 .calculs input {
@@ -112,16 +113,18 @@ header ul li {
 }
 
 /* Quptes */
-.quotes, .error {
+.quotes,
+.error {
   margin: 20% 15%;
 }
 
-.quotes h3, .error {
+.quotes h3,
+.error {
   font-size: 30px;
   padding: 30px;
   backdrop-filter: blur(20px);
 }
 
 .error {
-  color: #ff0000;
+  color: #f00;
 }
