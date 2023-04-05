@@ -79,3 +79,14 @@ body {
 .zero {
   grid-column: 1 / span 2;
 }
+
+/* Quptes */
+.quotes {
+  margin: 20% 15%;
+}
+
+.quotes h3 {
+  font-size: 30px;
+  padding: 30px;
+  backdrop-filter: blur(20px);
+}
