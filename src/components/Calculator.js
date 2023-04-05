@@ -14,13 +14,17 @@ const Calculs = () => {
   };
 
   return (
-    <div className="container">
-      <form className="calculs">
-        <input className="calculs" type="text" value={result.total || result.next || '0'} readOnly />
-      </form>
-      <Buttons handleClick={handleClick} />
+    <div className="calculator">
+      <div>
+        <h2>Let us do some math!</h2>
+      </div>
+      <div className="calculator-container">
+        <form className="calculs">
+          <input className="calculs" type="text" value={result.total || result.next || '0'} readOnly />
+        </form>
+        <Buttons handleClick={handleClick} />
+      </div>
     </div>
-
   );
 };
 
