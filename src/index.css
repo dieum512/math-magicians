@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
-  background-color: #ccc5c5;
+  background: url('Images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+/* hpme page */
+.div-container {
+  margin: 8% 15%;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+}
+
+.div-container h2 {
+  font-size: 60px;
+  margin-bottom: 70px;
+  color: #ec5242;
+}
+
+.div-container p {
+  font-size: 19px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+
+/* calculator */
 .container {
   background-color: #fff;
   width: 100%;
