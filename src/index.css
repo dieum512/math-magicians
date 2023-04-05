@@ -14,6 +14,37 @@ body {
   background-position: center;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NavBar */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 15%;
+  background-color: #03041b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+}
+
+header ul li {
+  font-size: 20px;
+}
+
 /* hpme page */
 .div-container {
   margin: 8% 15%;
@@ -81,12 +112,16 @@ body {
 }
 
 /* Quptes */
-.quotes {
+.quotes, .error {
   margin: 20% 15%;
 }
 
-.quotes h3 {
+.quotes h3, .error {
   font-size: 30px;
   padding: 30px;
   backdrop-filter: blur(20px);
+}
+
+.error {
+  color: #ff0000;
 }
