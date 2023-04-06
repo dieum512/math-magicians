@@ -95,6 +95,7 @@ header ul li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3px;
+  padding: 4px;
 }
 
 .button {
@@ -102,10 +103,20 @@ header ul li {
   border: 0;
   padding: 20px;
   border-radius: 45px;
+  transition: 0.4s ease-in-out;
+}
+
+.button:hover {
+  background-color: #ebdddd;
 }
 
 .sign {
   background-color: #f5913e;
+  transition: 0.2s ease-in-out;
+}
+
+.sign:hover {
+  background-color: #f1a15f;
 }
 
 .zero {
